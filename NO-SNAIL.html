@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NO-SNAIL</title>
+    <link rel="icon" href="immagini/logo.png"> <!-- Logo come favicon -->
+    <link rel="stylesheet" href="css.css"> <!-- Foglio di stile CSS -->
+</head>
+
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar" >
+        <img src="immagini/logo.png " alt="NO-SNAIL Logo" class="logo" > 
+        
+        <div class="navbar">
+            <div class="menu">
+                <a href="#Home">Home</a>
+                <a href="#siamo">Chi siamo</a>
+                <a href="#contattare">Contatti</a>
+            </div>
+        </div>    
+    </nav>
+
+    <!--Video-->
+    <div class="video" id="Home">
+    <video autoplay muted loop>
+        <source src="immagini/hero.mp4" type="video/mp4">
+    </video>
+    <div>
+
+    <!-- immagine -->
+    <div class="immagine" >
+     <img src="immagini/repellente.png" class="imm">
+    </div>
+
+    <div class="lettere">
+        <h1>Il nostro repellente magico</h1>
+        <p>è l’unica difesa approvata dal Ministero delle Arti Magiche contro le <em>bestie striscianti</em>.<br>
+        Con una sola spruzzata, le bestie striscianti fuggiranno nel regno delle ombre! <br id="contattare">
+        Creato con ingredienti alchemici, è potente, sicuro e... <strong>100% misterioso.</strong></p>
+        
+        <p >DA NON USARE SUI BAMBINI!</p>
+        
+
+    </div>
+
+    <h1 >Mandaci Un Gufo(o un messaggio)</h1>
+    
+        <!-- Form di contatto -->
+        <div class="contact-form">
+            <h2 >Contattaci</h2>
+            <form action="/submit" method="POST">
+                <!-- Nome -->
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Inserisci il tuo nome" required>
+
+                <!-- Email -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Inserisci la tua email" required>
+
+                <!-- Messaggio -->
+                <label for="messaggio">Messaggio:</label>
+                <textarea id="messaggio" name="messaggio" placeholder="Scrivi il tuo messaggio" rows="4" required></textarea>
+
+                <!-- Bottone di invio -->
+                <input type="submit" value="Invia">
+            </form>
+        </div>
+
+        <div class="fine">    
+        <p>NO-SNAIL è un'azienda innovativa specializzata nella creazione di repellenti per lumache carnivore. <br>
+        La nostra missione è fornire soluzioni sicure e potenti per proteggere giardini e coltivazioni dalle fastidiose e pericolose lumache carnivore. <br>
+        Grazie a un team di esperti alchimisti, abbiamo sviluppato un prodotto unico che combina la magia e la scienza per proteggere le tue piante in modo naturale.</p><br>
+        
+        <p>Crediamo nella qualità e nell'efficacia, e ogni nostro prodotto è stato testato per garantire risultati sicuri e duraturi.<br> 
+            Con NO-SNAIL, puoi dire addio alle lumache carnivore e goderti un giardino sano e protetto!</p>
+        
+            <footer>
+                <p id="siamo">&copy; 2025 NO-SNAIL - Tutti i diritti riservati.</p>
+            </footer>
+        </div>
+        
+
+</body>
+</html>
